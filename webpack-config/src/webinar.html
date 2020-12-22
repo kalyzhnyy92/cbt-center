@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Центр Биржевых Технологий</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__top">
+                <div class="header__menu">
+                    <div class="container">
+                        <div class="header__row">
+                            <div class="header__mobile">
+                                <button class="mobile__btn-open">
+                                    <span class="mobile__burger burger js-toggle-menu">
+                                        <span class="burger__line burger__line-first"></span>
+                                        <span class="burger__line burger__line-second"></span>
+                                        <span class="burger__line burger__line-third"></span>
+                                    </span>
+                                </button>
+                                <div class="mobile__nav">
+                                    <div class="mobile__block">
+                                        <div class="mobile__inner">
+                                            <div class="mobile__numeral">20.05.2020</div>
+                                            <div class="mobile__text">вебинар</div>
+                                            <h1 class="mobile__title">“Как создавать пассивный доход?”</h1>
+                                        </div>
+                                        <div class="mobile__social">
+                                            <div class="mobile__links">
+                                                <a class="mobile__link-facebook" href="https://www.facebook.com" target="blank">
+                                                    <svg class="mobile__facebook" width="9" height="17" viewBox="0 0 9 17">
+                                                        <use xlink:href="img/svg/facebook.svg#facebook"></use>
+                                                    </svg>
+                                                </a>
+                                                <a class="mobile__link-telegram" href="https://web.telegram.org" target="blank">
+                                                    <svg class="mobile__telegram" width="15" height="13" viewBox="0 0 15 13">
+                                                        <use xlink:href="img/svg/telegram.svg#telegram"></use>
+                                                    </svg>
+                                                </a>
+                                                <a class="mobile__link-instagram" href="https://www.instagram.com" target="blank">
+                                                    <svg class="mobile__instagram" width="16" height="16" viewBox="0 0 16 16">
+                                                        <use xlink:href="img/svg/instagram.svg#instagram"></use>
+                                                    </svg>
+                                                </a>
+                                                <a class="mobile__link-youtube" href="https://www.youtube.com" target="blank">
+                                                    <svg class="mobile__youtube" width="18" height="12" viewBox="0 0 18 12">
+                                                        <use xlink:href="img/svg/youtube.svg#youtube"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header__logo">
+                                <a href="#" class="header__link">
+                                    <img class="header__img" src="img/logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <div class="header__inner">
+                                <div class="header__numeral">20.05.2020</div>
+                                <p class="header__text">вебинар</p>
+                                <h1 class="header__title">“как создавать пассивный доход?”</h1>
+                            </div>
+                            <div class="header__phone">
+                                <a class="header__link-tel" href="tel:+380800500222">
+                                    <svg class="header__call" width="10" height="11" viewBox="0 0 10 11">
+                                        <use xlink:href="img/svg/icon-call.svg#call"></use>
+                                    </svg>
+                                    0 800 <span class="header__fatty">500 222</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <div class="counter">
+                <div class="container">
+                    <div class="counter__row">
+                        <div class="counter__left">
+                            <div class="counter__bg-left counter__bg-map"></div>
+                            <div class="counter__launch">
+                                <div class="counter__text">Не пропустите</div>
+                                <div class="counter__title">Наш вебинар начнется через:</div>
+                            </div>
+                        </div>
+                        <div class="counter__right">
+                            <div class="counter__bg-bottom"></div>
+                            <div class="counter__square">
+                                <div class="counter__line">
+                                    <img class="counter__frame" src="img/frame-line.png" alt="frame-line">
+                                </div>
+                                <div id="countdown" class="counter__timer">
+                                    <ul class="counter__list">
+                                        <li class="counter__item">
+                                            <div class="counter__card">
+                                                <div class="days counter__days">10</div>
+                                                <div class="counter__progress">
+                                                    <div class="days__progress counter__progress_fill"></div>
+                                                </div>
+                                                <div class="counter__subtext">дней</div>
+                                            </div>
+                                        </li>
+                                        <li class="counter__item">
+                                            <div class="counter__card">
+                                                <div class="hours counter__hours">15</div>
+                                                <div class="counter__progress">
+                                                    <div class="hours__progress counter__progress_fill"></div>
+                                                </div>
+                                                <div class="counter__subtext">часов</div>
+                                            </div>
+                                        </li>
+                                        <li class="counter__item">
+                                            <div class="counter__card">
+                                                <div class="minutes counter__minutes">22</div>
+                                                <div class="counter__progress">
+                                                    <div class="minutes__progress counter__progress_fill"></div>
+                                                </div>
+                                                <div class="counter__subtext">минут</div>
+                                            </div>
+                                        </li>
+                                        <li class="counter__item">
+                                            <div class="counter__card">
+                                                <div class="seconds counter__seconds">57</div>
+                                                <div class="counter__progress">
+                                                    <div class="seconds__progress counter__progress_fill"></div>
+                                                </div>
+                                                <div class="counter__subtext">секунд</div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video">
+                <div class="container">
+                    <div class="video__row">
+                        <div class="video__center">
+                            <div class="video__master">
+                                <div class="video__photo">
+                                    <button class="video__btn">
+                                        <svg class="video__play-btn" width="24" height="28" viewBox="0 0 24 28">
+                                            <use xlink:href="img/svg/icon-play-btn.svg#play-btn"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <!-- <iframe class="video__iframe" width="1150" height="650" src="https://www.youtube.com/embed/jJZjSiOAev8" frameborder="0"
+                                    allowfullscreen></iframe> -->
+                                <div class="video__bg-video">
+                                    <img class="video__img" src="http://placehold.it/1170x660" alt="video">
+                                </div>
+                            </div>
+                            <div class="video__bg">
+                                <div class="video__block">
+                                    <div class="video__reply">Отправить ответ</div>
+                                    <div class="video__login">
+                                        Войти с
+                                        <div class="video__social">
+                                            <div class="video__links">
+                                                <a class="video__link-facebook" href="#" target="blank">
+                                                    <svg class="video__facebook" width="7" height="14" viewBox="0 0 9 17">
+                                                        <use xlink:href="img/svg/facebook.svg#facebook"></use>
+                                                    </svg>
+                                                </a>
+                                                <a class="video__link-google" href="#" target="blank">
+                                                    <svg class="video__google" width="510" height="510" viewBox="0 0 510 510">
+                                                        <use xlink:href="img/svg/google.svg#google"></use>
+                                                    </svg>
+                                                </a>
+                                                <a class="video__link-vk" href="#" target="blank">
+                                                    <svg class="video__vk" width="0" height="0" viewBox="0 0 363.301 363.301">
+                                                        <use xlink:href="img/svg/vk.svg#vk"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="video__discussion">
+                                        <textarea placeholder="Начать обсуждение..." class="video__textarea" name="text"></textarea>
+                                    </div>
+                                    <div class="video__line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products">
+                <div class="container">
+                    <div class="products__row">
+                        <div class="products__bg">
+                            <div class="products__card">
+                                <div class="products__accordion">
+                                    <div class="products__accordion-item">
+                                        <div class="products__lable">
+                                            <div class="products__title">Silver</div>
+                                            <div class="products__number">49</div>
+                                            <div class="products__dollar">$</div>
+                                        </div>
+                                        <div class="products__content products__hide">
+                                            <nav class="products__nav">
+                                                <ul class="products__list">
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">10 занятий</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Соотношение практики к теории 80/20</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Конкретные методы по заработку денег (от 5% и больше в месяц)</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Тактики и стратегии заработка от профессионалов</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Работа над психологией заработка</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Мани-менеджмент и управление капиталом</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Аналитические ресурсы компании</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Поддержка в работе</div>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                            <button class="products__btn">Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__card">
+                                <div class="products__accordion">
+                                    <div class="products__accordion-item">
+                                        <div class="products__lable">
+                                            <div class="products__title">Platinum</div>
+                                            <div class="products__number">249</div>
+                                            <div class="products__dollar">$</div>
+                                        </div>
+                                        <div class="products__content ">
+                                            <nav class="products__nav">
+                                                <ul class="products__list">
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">10 занятий</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Соотношение практики к теории 80/20</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Конкретные методы по заработку денег (от 5% и больше в месяц)</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Тактики и стратегии заработка от профессионалов</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Работа над психологией заработка</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Мани-менеджмент и управление капиталом</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Аналитические ресурсы компании</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Поддержка в работе</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Модель поведения крупных участников бизнеса</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Доступ к закрытым мастер классам компании</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Трудоустройство (по результатам экзаменов)</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Научитесь автоматизировать рабочие процессы</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Доступ к сообществу профессионалов (Закрытый чат)</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Освещение ваших результатов в СМИ нашей компании (У вас будут брать интервью, рекламировать
+                                                            среди инвесторов)</div>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                            <button class="products__btn">Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__card">
+                                <div class="products__accordion">
+                                    <div class="products__accordion-item">
+                                        <div class="products__lable">
+                                            <div class="products__title">Gold</div>
+                                            <div class="products__number">87</div>
+                                            <div class="products__dollar">$</div>
+                                        </div>
+                                        <div class="products__content products__hide">
+                                            <nav class="products__nav">
+                                                <ul class="products__list">
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">10 занятий</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Соотношение практики к теории 80/20</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Конкретные методы по заработку денег (от 5% и больше в месяц)</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Тактики и стратегии заработка от профессионалов</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Работа над психологией заработка</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Мани-менеджмент и управление капиталом</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Аналитические ресурсы компании</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Поддержка в работе</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Модель поведения крупных участников бизнеса</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Доступ к закрытым мастер классам компании</div>
+                                                    </li>
+                                                    <li class="products__item">
+                                                        <div class="products__checkbox">
+                                                            <svg class="products__icon" width="12" height="12" viewBox="0 0 12 12">
+                                                                <use xlink:href="img/svg/checked.svg#checked"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="products__text">Трудоустройство (по результатам экзаменов)</div>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                            <button class="products__btn">Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="reviews">
+                <div class="container">
+                    <div class="reviews__row">
+                        <div class="reviews__left">
+                            <div class="reviews__block">
+                                <div class="reviews__text">Отзывы о нас</div>
+                                <div class="reviews__title">Что говорят наши клиенты</div>
+                                <div class="reviews__btn"></div>
+                            </div>
+                        </div>
+                        <div class="reviews__right">
+                            <div class="reviews__square">
+                                <div class="reviews__line">
+                                    <img class="reviews__frame" src="img/reviews-frame-line.png" alt="frame-line">
+                                </div>
+                            </div>
+                            <div class="reviews__grid">
+                                <div class="reviews__slider">
+                                    <div class="reviews__item">
+                                        <div class="reviews__card">
+                                            <div class="reviews__manager">
+                                                <div class="reviews__name">Николай</div>
+                                                <div class="reviews__head">директор по развитию</div>
+                                            </div>
+                                            <div class="reviews__progress"></div>
+                                            <div class="reviews__info">
+                                                <div class="reviews__description">Идейные соображения высшего порядка, а также рамки и место обучения кадров влечет за
+                                                    собой
+                                                    процесс внедрения и модернизации форм развития. Задача организации, в особенности же рамки и место обучения кадров
+                                                    способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям.</div>
+                                                <div class="reviews__date">01.04.2020</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item">
+                                        <div class="reviews__card">
+                                            <div class="reviews__manager">
+                                                <div class="reviews__name">Александр</div>
+                                                <div class="reviews__head">еще длинная должность</div>
+                                            </div>
+                                            <div class="reviews__progress"></div>
+                                            <div class="reviews__info">
+                                                <div class="reviews__description">Идейные соображения высшего порядка, а также рамки и место обучения кадров влечет за
+                                                    собой
+                                                    процесс внедрения и модернизации форм развития. Задача организации, в особенности же рамки и место обучения кадров
+                                                    способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Идейные
+                                                    соображения
+                                                    высшего порядка, а также рамки и место обучения кадров влечет за собой процесс внедрения и</div>
+                                                <div class="reviews__date">01.04.2020</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item">
+                                        <div class="reviews__card">
+                                            <div class="reviews__manager">
+                                                <div class="reviews__name">Валентина</div>
+                                                <div class="reviews__head">какая-то должность</div>
+                                            </div>
+                                            <div class="reviews__progress"></div>
+                                            <div class="reviews__info">
+                                                <div class="reviews__description">Идейные соображения высшего порядка, а также рамки и место обучения кадров влечет за
+                                                    собой
+                                                    процесс внедрения и модернизации форм развития. Задача организации, в особенности же рамки и место обучения кадров
+                                                    способствует подготовки и реализации</div>
+                                                <div class="reviews__date">01.04.2020</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item">
+                                        <div class="reviews__card">
+                                            <div class="reviews__manager">
+                                                <div class="reviews__name">Александр</div>
+                                                <div class="reviews__head">еще длинная должность</div>
+                                            </div>
+                                            <div class="reviews__progress"></div>
+                                            <div class="reviews__info">
+                                                <div class="reviews__description">Идейные соображения высшего порядка, а также рамки и место обучения кадров влечет за
+                                                    собой
+                                                    процесс внедрения и модернизации форм развития. Задача организации, в особенности же рамки и место обучения кадров
+                                                    способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Идейные
+                                                    соображения
+                                                    высшего порядка, а также рамки и место обучения кадров влечет за собой процесс внедрения и</div>
+                                                <div class="reviews__date">01.04.2020</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item">
+                                        <div class="reviews__card">
+                                            <div class="reviews__manager">
+                                                <div class="reviews__name">Николай</div>
+                                                <div class="reviews__head">директор по развитию</div>
+                                            </div>
+                                            <div class="reviews__progress"></div>
+                                            <div class="reviews__info">
+                                                <div class="reviews__description">Идейные соображения высшего порядка, а также рамки и место обучения кадров влечет за
+                                                    собой
+                                                    процесс внедрения и модернизации форм развития. Задача организации, в особенности же рамки и место обучения кадров
+                                                    способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям.</div>
+                                                <div class="reviews__date">01.04.2020</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="logos">
+                <div class="container">
+                    <div class="logos__row">
+                        <ul class="logos__list">
+                            <li class="logos__item">
+                                <div class="logos__visa"></div>
+                            </li>
+                            <li class="logos__item">
+                                <div class="logos__mastercard"></div>
+                            </li>
+                            <li class="logos__item">
+                                <div class="logos__webmoney"></div>
+                            </li>
+                            <li class="logos__item">
+                                <div class="logos__yandex"></div>
+                            </li>
+                            <li class="logos__item">
+                                <div class="logos__qiwi"></div>
+                            </li>
+                            <li class="logos__item">
+                                <div class="logos__bank"></div>
+                            </li>
+                            <li class="logos__item">
+                                <div class="logos__advcash"></div>
+                            </li>
+                            <!-- <li class="logos__item">
+                                <div class="logos__bank"></div>
+                            </li> -->
+                            <li class="logos__item">
+                                <div class="logos__skrill"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__menu">
+                        <div class="footer__logo">
+                            <a href="#" class="footer__link-logo">
+                                <img class="footer__img" src="img/footer-logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="footer__nav">
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a class="footer__link" href="#">О компании</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__link" href="#">Обучение</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__link" href="#">Инвестиции</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__link" href="#">Офисы</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__phone">
+                            <a class="footer__link-tel" href="tel:+380800500222">
+                                0 800 <span class="footer__fatty">500 222</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__block">
+                            <a href="#" class="footer__policy">Политика конфиденциальности</a>
+                            <a href="#" class="footer__info">Важная информация</a>
+                        </div>
+                        <div class="footer__social">
+                            <div class="footer__links">
+                                <a class="footer__link-facebook" href="https://www.facebook.com" target="blank">
+                                    <svg class="footer__facebook" width="9" height="17" viewBox="0 0 9 17">
+                                        <use xlink:href="img/svg/facebook.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                                <a class="footer__link-telegram" href="https://web.telegram.org" target="blank">
+                                    <svg class="footer__telegram" width="15" height="13" viewBox="0 0 15 13">
+                                        <use xlink:href="img/svg/telegram.svg#telegram"></use>
+                                    </svg>
+                                </a>
+                                <a class="footer__link-instagram" href="https://www.instagram.com" target="blank">
+                                    <svg class="footer__instagram" width="16" height="16" viewBox="0 0 16 16">
+                                        <use xlink:href="img/svg/instagram.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                                <a class="footer__link-youtube" href="https://www.youtube.com" target="blank">
+                                    <svg class="footer__youtube" width="18" height="12" viewBox="0 0 18 12">
+                                        <use xlink:href="img/svg/youtube.svg#youtube"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__service">
+                            <div class="footer__studio">Разработано в студии</div>
+                            <div class="footer__icon">
+                                <a class="footer__link-bonum" href="https://bonum-studio.com" target="blank">
+                                    <svg class="footer__bonum" width="41" height="6" viewBox="0 0 41 6">
+                                        <use xlink:href="img/svg/bonum.svg#bonum"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div class="share">
+        <div class="share__toggle"></div>
+        <ul class="share__list">
+            <li class="share__item">
+                <a href="#" target="blank" class="share__link">
+                    <svg class="share__telegram" width="25" height="23" viewBox="0 0 25 23">
+                        <use xlink:href="img/svg/chat-telegram.svg#chat-tg"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="share__item">
+                <a href="#" target="blank" class="share__link">
+                    <svg class="share__facebook" width="14" height="25" viewBox="0 0 14 25">
+                        <use xlink:href="img/svg/chat-facebook.svg#chat-fb"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="share__item">
+                <a href="#" target="blank" class="share__link">
+                    <svg class="share__viber" width="24" height="25" viewBox="0 0 24 25">
+                        <use xlink:href="img/svg/chat-viber.svg#chat-viber"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
